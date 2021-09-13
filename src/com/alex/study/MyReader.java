@@ -10,12 +10,6 @@ import java.util.*;
 
 public class MyReader {
 
-    public String writeFilePath() throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        String pathFile = bufferedReader.readLine();
-        return pathFile;
-    }
-
     public void reader() {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String pathFile = null;
