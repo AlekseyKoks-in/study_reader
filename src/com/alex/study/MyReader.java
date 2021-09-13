@@ -32,7 +32,7 @@ public class MyReader {
     }
 
     public List<String> conversionFileToList(String pathFile) throws IOException {
-        String string = String.valueOf(Files.readAllLines(Path.of(pathFile).toRealPath()));
+        String string = String.valueOf(Files.readAllLines(Path.of(pathFile)));
         String[] words = string.toLowerCase(Locale.ROOT).split("\\W+");
         Arrays.sort(words);
         List<String> listWords = new ArrayList<>();
