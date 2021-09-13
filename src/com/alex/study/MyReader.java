@@ -65,7 +65,6 @@ public class MyReader {
                 maxValue = pair.getValue();
             }
         }
-
         for (Map.Entry<String, Integer> pair : map.entrySet()) {
             if (pair.getValue().equals(maxValue)) {
                 System.out.println(pair.getKey() + " - " + pair.getValue());
