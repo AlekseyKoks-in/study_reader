@@ -24,10 +24,8 @@ public class MyReader {
             }
             System.out.println();
             searchMaxValue(map);
-        } catch (NoSuchFileException e) {
-            System.out.println("Invalid file path");
-        } catch (IOException ex) {
-            System.out.println("Input/output exception");
+        } catch (Exception e) {
+            System.out.println("Something exception");
         }
     }
 
